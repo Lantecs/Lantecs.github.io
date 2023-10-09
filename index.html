@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar sticky-top navbar-dark navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <img
+            src="./assets/img/logo.png"
+            alt="Logo"
+            width="50"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">
+                  <i class="bi bi-house-door-fill"></i> Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"
+                  ><i class="bi bi-person-vcard-fill"></i> About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">
+                  <i class="bi bi-bar-chart-fill"></i> Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume"
+                  ><i class="bi bi-clipboard-fill"></i> Resume</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#certificates"
+                  ><i class="bi bi-postcard"></i> Certificates</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#contact"
+                  ><i class="bi bi-person-rolodex"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar-End-->
+
+    <!--Home-->
+    <section
+      id="home"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="home-container" data-aos="fade-up">
+        <h1>Lanbert Ry V. Tecson</h1>
+
+        <p>
+          I'm a <span class="bi bi-person fs-3"></span>
+          <span class="auto-type"></span>
+        </p>
+      </div>
+    </section>
+
+    <!--Home-End-->
+
+    <main id="main">
+      <!--About-->
+      <section id="about" class="about">
+        <div class="container py-3">
+          <div class="section-title" data-aos="fade-down">
+            <h2>About</h2>
+            <p>
+              I am an aspiring IT student with a genuine passion for technology
+              and a relentless drive to explore its limitless possibilities. I
+              am pursuing my Bachelor of Science in Information Technology at
+              Caraga State University.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img
+                id="profile-pic"
+                src="./assets/img/profile-pic.png"
+                class="img-fluid rounded-circle"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>UI/UX Designer &amp; Web Developer.</h3>
+              <p class="fst-italic">
+                This are some basic information about me.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Birthday:</strong> <span>14 September 2001</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Website:</strong> <span>www.lanbert.com</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Phone:</strong> <span>+639 456 785 585</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>City:</strong> <span>Butuan, Philippines</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                      <span>22</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Degree:</strong> <span>On going</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <span>lanberttecson@gmail.com</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Freelance:</strong> <span>Available</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                I am committed to acquiring a deep understanding of the digital
+                landscape. My journey as an Information Technology student has
+                been marked by curiosity and hands-on experience, allowing me to
+                develop proficiency in various programming languages, tools, and
+                technologies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--About-End-->
+
+      <!--Skills-->
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title" data-aos="fade-right">
+            <h2>Skills</h2>
+            <p>
+              During my time at Caraga State University, I developed a wide
+              range of skills, including academic excellence, critical thinking,
+              effective communication, teamwork, problem-solving, leadership,
+              adaptability, and ethical values. These skills have not only
+              enriched my academic experience but also prepared me for the
+              future. I'm grateful for the knowledge and values instilled in me
+              during my time at the university, and I'm excited to apply these
+              skills as I move forward in my journey.
+            </p>
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6" data-aos="fade-up">
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Bootsrap <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">45%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="progress">
+                <span class="skill">PHP <i class="val">30%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="30"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Java <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">C<i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="65"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills -->
+
+      <!-- Resume -->
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title" data-aos="fade-down">
+            <h2>Resume</h2>
+            <p>
+              Dedicated and highly motivated professional with a diverse skill
+              set developed through academic achievements, practical
+              experiences, and a commitment to continuous learning. Known for
+              exceptional problem-solving abilities, strong communication
+              skills, and a collaborative approach to work. Adept at thriving in
+              dynamic environments and adapting to new challenges. Seeking
+              opportunities to leverage my skills and contribute effectively in
+              the IT industry.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="resume-title">Sumary</h3>
+              <div class="resume-item pb-0">
+                <h4>Lanbert Tecson</h4>
+                <p>
+                  <em
+                    >Innovative and deadline-driven College Student with 3+
+                    years of experience designing and developing applications
+                    .</em
+                  >
+                </p>
+                <ul>
+                  <li>Philippines, Butuan CIty</li>
+                  <li>63+ 9456785585</li>
+                  <li>lanberttecson@gmail.com</li>
+                </ul>
+              </div>
+
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Bachelor of Information Technology</h4>
+                <h5>2021 - 2023 - On Going</h5>
+                <p><em>Caraga State University</em></p>
+                <p>
+                  Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
+                  reiciendis et quis Eius vel ratione eius unde vitae rerum
+                  voluptates asperiores voluptatem Earum molestiae consequatur
+                  neque etlon sader mart dila
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Online Community Supervisor (Expert)</h4>
+                <h5>2016 - 2018</h5>
+                <p>
+                  <em>As a seasoned supervisor in an online community. </em>
+                </p>
+                <ul>
+                  <li>
+                    Mentored Support Members: Guided and supported Support
+                    Members during tutoring, offering tips and assistance.
+                  </li>
+                  <li>
+                    Enforced Standards: Reported staff misconduct to management,
+                    ensuring session professionalism.
+                  </li>
+                  <li>
+                    Community Oversight: Managed reports of system abuse, led
+                    discussions on consequences and implemented restrictions.
+                  </li>
+                  <li>
+                    Technical Expertise: Assisted members with coding
+                    challenges, troubleshooting, and code testing.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Resume -->
+
+      <section id="certificates" class="certificates section-bg">
+        <div class="container">
+          <div class="section-title" data-aos="fade-down">
+            <h2>Certificates</h2>
+          </div>
+
+          <div class="cotainer text-center">
+            <div class="row">
+              <div class="col-lg pb-3" data-aos="fade-right">
+                <img
+                  src="./assets/img/html-cert.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg" data-aos="fade-left">
+                <img
+                  src="./assets/img/css-cert.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title" data-aos="fade-in">
+            <h2>Contact</h2>
+            <p>
+              I am an IT enthusiast with a passion for leveraging technology to
+              solve real-world problems. With a strong foundation in [mention
+              specific IT skills or areas of expertise], I thrive on the
+              challenges of the ever-evolving tech landscape. I'm dedicated to
+              delivering innovative solutions and continuously enhancing my
+              skills to stay at the forefront of the IT field. Let's connect and
+              explore how we can drive technological excellence together
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Block 18 Lot 23, Butuan, 8600</p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>lanberttecson@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>63+ 945 678 5585</p>
+                </div>
+
+                <iframe
+                  src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Butuan City, Libertad&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  style="border: 0; width: 100%; height: 290px"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form id="contactForm" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="10"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button id="sendButton" type="submit" value="send">
+                    Send Message
+                  </button>
+                  <div id="successMessage" class="hidden">
+                    Message sent successfully!
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact -->
+
+      <!--Footer-->
+      <footer class="site-footer">
+        <div class="container">
+          <ul class="social-icons">
+            <li>
+              <a class="facebook" href="https://www.facebook.com/LanbertRyu"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a class="twitter" href="https://twitter.com/home"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+            </li>
+            <li>
+              <a class="dribbble" href="https://www.instagram.com/lanbertry/"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a class="linkedin" href="https://www.youtube.com"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <!--Footer End-->
+    </main>
+    <script src="./node_modules/typed.js/dist/typed.umd.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/js/animation.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+  </body>
+</html>
