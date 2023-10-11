@@ -1,11 +1,5 @@
 
-var type = new Typed(".auto-type", {
-    strings: ["Freelancer", "Developer", "Student"],
-    typeSpeed: 100,
-    startDelay: 1200,
-    backSpeed: 70,
-    loop: true
-  })
+
 
   window.addEventListener('load', () => {
     AOS.init({
@@ -15,6 +9,14 @@ var type = new Typed(".auto-type", {
       mirror: false
     })
   });
+
+  var type = new Typed(".auto-type", {
+    strings: ["Freelancer", "Developer", "Student"],
+    typeSpeed: 100,
+    startDelay: 1200,
+    backSpeed: 70,
+    loop: true
+  })
 
   function animateProgressBars() {
     const progressBars = document.querySelectorAll('.progress-bar');
