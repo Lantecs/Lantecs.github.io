@@ -63,7 +63,7 @@ h6 {
   #home {
     width: 100%;
     height: 100vh;
-    background: url('/assets/img/background.jpg') top center;
+    background: url(/assets/img/background.jpg) top center;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(5, 13, 24, 0.3);
   } 
